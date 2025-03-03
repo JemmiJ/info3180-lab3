@@ -1,3 +1,37 @@
 body {
     padding-top: 5rem;
 }
+
+.contact-container{
+    max-width:500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #5c7b1e;
+}
